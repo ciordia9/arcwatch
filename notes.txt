@@ -1,0 +1,7 @@
+
+Daemoninzing inotify causes the rest of the script not to execute properly
+
+#inotifywait -s -d -o /dev/null $watchdir -e create -e moved_to |
+
+need to look into why.
+
